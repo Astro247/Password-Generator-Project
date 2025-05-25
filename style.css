@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;  
+    background-color: rgb(71, 71, 71);
+}
+h1 {
+    font-size: 3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 1rem;
+    letter-spacing: 5px;
+    color: rgb(163, 163, 163);
+    text-shadow: 5px 5px 5px black;
+
+}
+.passContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    width: 25rem;
+    background-color: rgb(172, 172, 172);
+    border: solid 3px;
+    border-radius: 1rem;
+    padding: 3rem;
+    box-shadow: 5px 5px 5px rgb(31, 31, 31);
+}
+.radioContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    background-color: rgb(172, 172, 172);
+    border: solid 3px;
+    border-radius: 1rem;
+    padding: 3rem;
+    box-shadow: 5px 5px 5px rgb(31, 31, 31);
+}
+.labels {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.labels label {
+    font-size: 1.3rem;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+#generatePass {
+    font-size: 1.5rem;
+    padding: 5px;
+    cursor: pointer;
+}
+#pass {
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5px;
+}
