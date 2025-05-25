@@ -7,10 +7,9 @@ const STRINGS = {
 
 
 function checkAllFalse(PARAMETERS) {
-    let check = undefined
-    !PARAMETERS.lowerCase && !PARAMETERS.upperCase && !PARAMETERS.numbers && !PARAMETERS.symbols ? check = true : check = false
-    return check
+    return !(PARAMETERS.lowerCase || PARAMETERS.upperCase || PARAMETERS.numbers || PARAMETERS.symbols);
 }
+
 
 
 function generatePassword(PARAMETERS, STRINGS) {
